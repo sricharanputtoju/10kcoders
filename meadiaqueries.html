@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+   <head>
+           <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>meadia Queries</title>
+	  <style>
+	  .Header{
+	    background-color:transparent;
+		colo:white;
+		font:36px;
+		font-style:italic;
+		height:150px;
+		display:flex;
+		flex-wrap:wrap
+	  }
+	  .flex{
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+	 width:-1px;
+	 align-items:center
+   }
+	   .parent_div{
+	      display:flex;
+		  flex-wrap:wrap;
+	   }
+	   
+	   .1{
+	     width:33.3%
+	   }
+	   .2{
+	     width:33.3%
+	   }
+	   .3{
+	     width:33.3%
+	   }
+	   @media only screen and (max-width:768px){
+	   .1{
+	     width:100%
+	   }
+	   .2{
+	     width:100%
+	   }
+	   .3{
+	     width:100%
+	   }
+	   }
+	    @media only screen and (max-width:1024px)and (min-width:768px){
+		.1{
+	     width:50%
+	   }
+	   .2{
+	     width:50%
+	   }
+	   .3{
+	     width:100%
+	   }
+		
+		}
+	  </style>
+   </head>
+   <body>
+      <!--header section-->
+      <div class="Header"">
+	     <img src="https://www.10000coders.co/assets/10000coders-logo.png?v=1.2">
+		 <ul class="flex">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#why">Why</a></li>
+                                <li><a href="#curriculum">Curriculum</a></li>
+                                <li><a href="#team">Team</a></li>
+                                <li><a href="#employers">Employers</a></li>
+                                <li><a href="#admission">Admission</a></li>
+                                <li><a href="#price">Price</a></li>
+                                <li><a href="#faq">FAQ</a></li>
+                            </ul>
+	  </div>
+	  
+        <section class="home-section" id="home">
+
+           
+            <div class="container">
+
+               
+                <div class="row">
+
+                   
+                    <div class="col-md-7 col-xs-12">
+
+                        <p style="font-style:italic; font-size: 1.05rem;">
+                            All my friends have a cushy, high-paying job. Will I ever get a well-paying IT job?
+                        </p>
+                        <h1 style="line-height: 1.5">
+                            FEELING HOPELESS THAT YOUR DOOR TO A LUCRATIVE IT JOB IS CLOSED?
+                        </h1>
+
+                        <p>Never again worry about getting a well-paying IT job.
+                            This online training program is all you need to get hired by top software companies that you
+                            secretly desire to work for. And <span class="green">start earning a average of 4 lakh per annum—GUARANTEED!</span></p>
+                        <p style="margin-bottom: 15px; font-size: 1rem;">Interested?</p>
+                        <a href="apply_web_development.html" class="btn-blue btn-orange scrool">
+                            YES! I WANT TO JOIN
+                        </a>
+                        <br />
+                        <small class="cta-note">So I Can Get A Well-Paying IT Job In 7 Months</small>
+
+                    </div>
+                   
+                    <div class="col-md-5 d-none d-sm-block">
+
+                        <img src="assets/worried-person.png" class="hero-image width-100" alt="Worried Software Engineer">
+
+                    </div>
+                   
+
+                </div>
+                
+
+            </div>
+           
+        </section>
+        <!--end home section -->
+
+       
+	  <!--Banner section-->
+	  <div>
+	    <img src="C:/Users/T2c/Downloads/download3.jpg" width="100%" height="500px"/>
+	  </div>
+	  <!--content section-->
+	  <div class="parent_div">
+	      <div class="angry_bird 1">
+	      <img src="https://upload.wikimedia.org/wikipedia/en/8/8c/AngryBirdsReloaded-AppIcon.webp">
+          </div>
+    
+          <div class="angry_bird 2">
+          <img src="https://upload.wikimedia.org/wikipedia/en/8/8c/AngryBirdsReloaded-AppIcon.webp">
+          </div> 
+    
+          <div class="angry_bird 3">
+          <img src="https://upload.wikimedia.org/wikipedia/en/8/8c/AngryBirdsReloaded-AppIcon.webp">
+          </div>
+	  </div>
+	  <!--Footer section-->
+	  <div style="background-color:black;colo:white;font-size:36px;font-style:italic;height:150px;text-align:center">footer</div>
+   </body>
+</html>
