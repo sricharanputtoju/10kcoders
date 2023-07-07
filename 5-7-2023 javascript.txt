@@ -1,0 +1,14 @@
+JAVA SCRIPT
+Go to the extensions and install the following plungins.
+1.	Live Server: Live Server, a Visual Studio Code extension, enables developers to preview their work in real time. The extension eliminates the tediousness of manually refreshing the browser each time you make any changes, which can add up in larger projects.
+2.	ES7+React/Redux/React-Native Snippets: This plugin is used the React framework.
+3.	Thunder Client: Thunder client is a lightning-fast API client extension. It generates requests to retrieve responses quickly and smoothly. Having internet access is also unnecessary when testing APIs on your local machine. Thunder Client supports environment variables, GraphQL, collections, and test scripts.
+4.	Prettier: Prettier is an opinionated code formatter that follows specific rules to format code. The VSCode Prettier plugin integrates this tool into the Visual Studio Code editor, making it easy for developers to format their code automatically.
+EMMET:
+Emmet uses different abbreviations and short expressions depending on what's passed, and then dynamically converts the abbreviations into the full code. Emmet is mostly used for HTML, XML, and CSS, but it can also be used with programming languages.
+JAVASCRIPT INTRODUCTION
+What is java script?
+is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.
+JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+
+
