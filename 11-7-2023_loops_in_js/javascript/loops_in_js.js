@@ -89,6 +89,7 @@ for(let i=1;i<=rows1;i++){
 
 console.log("-----------------------");
 
+
 console.log("Example4");
 console.log("-----------------------");
 let c=0;
