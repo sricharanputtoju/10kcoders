@@ -1,0 +1,33 @@
+.parent{
+    background-color:black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.img{
+    height:50px;
+    width:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    
+}
+.border{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    border-style:solid;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.border:hover{
+    background-color: lightgreen;
+}
+.h1{
+    text-align: center;
+}
+.h2{
+    text-align: center;
+}
